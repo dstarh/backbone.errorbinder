@@ -7,7 +7,7 @@ errorBinder = new Backbone.ErrorBinder([receiverClassName]) #defaults to error
   foo: 
     messagesEl: "#foo-errors"
     [receiverEl: "#some-parent-element"]
-  
+```
 
 
 When model contains an object called `errors` it will attempt to find a key with that matchs your `foo`.  
